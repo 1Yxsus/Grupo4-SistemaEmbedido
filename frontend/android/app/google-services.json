@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "218617606452",
+    "firebase_url": "https://sistemasdigitales-5c91f-default-rtdb.firebaseio.com",
+    "project_id": "sistemasdigitales-5c91f",
+    "storage_bucket": "sistemasdigitales-5c91f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218617606452:android:e6bbf168360d06040ab561",
+        "android_client_info": {
+          "package_name": "com.example.sitema_embebido"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfFk0esxJDLc6egFaW-SsGZ1DY_2m1QAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

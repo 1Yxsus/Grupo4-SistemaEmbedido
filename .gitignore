@@ -1,0 +1,47 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and local credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*serviceAccount*.json
+credentials*.json
+backend/firebase-key.json
+
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/build/
+**/coverage/
+
+# Optional local config
+PROYECTO SISTEMAS DIGITALES/.python-version
+PROYECTO SISTEMAS DIGITALES/.env
+PROYECTO SISTEMAS DIGITALES/.env.*
