@@ -3,7 +3,7 @@ import json
 import io
 import hashlib
 import hmac
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import numpy as np
 import onnxruntime as ort
 from PIL import Image
@@ -156,7 +156,9 @@ def recibir_datos_iot():
 
         img = Image.open(io.BytesIO(img_bytes)).convert("RGB")
 
-        timestamp_actual = datetime.now().strftime("%d/%m/%y %H:%M")
+        # Obtener la hora actual en la zona horaria de Perú (UTC-5)
+        tz_peru = timezone(timedelta(hours=-5))
+        timestamp_actual = datetime.now(tz_peru).strftime("%d/%m/%y %H:%M")
         public_id = f"esp32cam/{timestamp_actual.replace('/', '-').replace(' ', '_').replace(':', '-') }"
 
         imagen_url = None
