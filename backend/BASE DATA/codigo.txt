@@ -1,0 +1,109 @@
+void loop() {
+  unsigned long tiempoActual = millis();
+
+  // ====================================================================
+  // LECTURA DEL STREAM (PASIVO - Escucha cambios de Flutter)
+  // ====================================================================
+  if (Firebase.ready() && isWifiConnected()) {
+    if (!Firebase.RTDB.readStream(&fbdoStream)) {
+      Serial.printf("[Stream] Error: %s\n", fbdoStream.errorReason().c_str());
+    }
+
+    if (fbdoStream.streamTimeout()) {
+      Serial.println("[Stream] Timeout, reconectando...");
+    }
+
+    // Si cambiaste algo en la App, esto se activa inmediatamente
+    if (fbdoStream.streamAvailable()) {
+      if (fbdoStream.dataType() == "json") {
+        FirebaseJson &json = fbdoStream.jsonObject();
+        FirebaseJsonData data;
+        
+        // 1. Intentar leer umbral de temperatura
+        json.get(data, "umbral_temperatura");
+        if (data.success) UMBRAL_TEMP = data.floatValue;
+        
+        // 2. Intentar leer umbral de humedad
+        json.get(data, "umbral_humedad");
+        if (data.success) UMBRAL_HUMEDAD = data.floatValue;
+        
+        // 3. Intentar leer modo del ventilador
+        json.get(data, "modo_ventilador");
+        if (data.success) MODO_VENTILADOR = data.stringValue;
+
+        Serial.printf("[Stream] App Actualizó -> Modo: %s | U.Temp: %.1f | U.Hum: %.1f\n", 
+                      MODO_VENTILADOR.c_str(), UMBRAL_TEMP, UMBRAL_HUMEDAD);
+      }
+    }
+  }
+
+  // ====================================================================
+  // TAREAS PERIÓDICAS
+  // ====================================================================
+  float temp = dht.readTemperature();
+  float hum  = dht.readHumidity();
+  bool ventiladorEncendido = (digitalRead(RELAY_PIN) == HIGH);
+
+  // --- TAREA 1: Cada 2 segundos (Control local + Envío de datos) ---
+  if (tiempoActual - tiempoAnteriorActual >= INTERVALO_ACTUAL) {
+    tiempoAnteriorActual = tiempoActual;
+
+    if (!isnan(temp) && !isnan(hum)) {
+      
+      // LÓGICA DE CONTROL SEGÚN EL MODO EVALUADO
+      if (MODO_VENTILADOR == "ON") {
+        digitalWrite(RELAY_PIN, HIGH);
+        ventiladorEncendido = true;
+      } 
+      else if (MODO_VENTILADOR == "OFF") {
+        digitalWrite(RELAY_PIN, LOW);
+        ventiladorEncendido = false;
+      } 
+      else { 
+        // MODO "AUTO": Se enciende si CUALQUIERA de los dos límites se supera
+        if (temp >= UMBRAL_TEMP || hum >= UMBRAL_HUMEDAD) {
+          digitalWrite(RELAY_PIN, HIGH);
+          ventiladorEncendido = true;
+        } 
+        // Se apaga solo si AMBOS están seguros (bajo el umbral - histéresis)
+        else if (temp <= (UMBRAL_TEMP - HISTERESIS) && hum <= (UMBRAL_HUMEDAD - HISTERESIS)) {
+          digitalWrite(RELAY_PIN, LOW);
+          ventiladorEncendido = false;
+        }
+      }
+
+      // SUBIR LECTURAS ACTUALIZADAS PARA QUE LA APP LAS MUESTRE
+      if (Firebase.ready() && isWifiConnected()) {
+        FirebaseJson jsonActual;
+        jsonActual.add("temperatura", temp);
+        jsonActual.add("humedad", hum);
+        jsonActual.add("ventilador_encendido", ventiladorEncendido);
+        jsonActual.add("ultima_actualizacion", obtenerFechaHora());
+
+        // Usamos 'fbdo' para subir datos y dejamos libre a 'fbdoStream'
+        if (Firebase.RTDB.setJSON(&fbdo, "/dispositivo_1/valores_actuales", &jsonActual)) {
+          Serial.printf("[Firebase] T: %.1f°C | H: %.1f%% | Vent: %s (Modo: %s)\n", 
+                        temp, hum, ventiladorEncendido ? "ON" : "OFF", MODO_VENTILADOR.c_str());
+        }
+      }
+    }
+  }
+
+  // --- TAREA 2: Cada 60 segundos (Tu historial y foto a Render) ---
+  if (tiempoActual - tiempoAnteriorHistorial >= INTERVALO_HISTORIAL) {
+    tiempoAnteriorHistorial = tiempoActual;
+
+    if (!isnan(temp) && !isnan(hum) && Firebase.ready() && isWifiConnected()) {
+      FirebaseJson jsonHistorial;
+      jsonHistorial.add("fecha_hora", obtenerFechaHora());
+      jsonHistorial.add("temperatura", temp);
+      jsonHistorial.add("humedad", hum);
+      jsonHistorial.add("limite_excedido", (temp > UMBRAL_TEMP || hum > UMBRAL_HUMEDAD));
+
+      Firebase.RTDB.pushJSON(&fbdo, "/dispositivo_1/historial_clima", &jsonHistorial);
+      Serial.println("[Firebase] Historial actualizado");
+    }
+
+    enviarFotoRender();
+  }
+}

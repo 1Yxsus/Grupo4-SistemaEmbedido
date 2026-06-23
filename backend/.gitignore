@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+index.html
+
+# Archivos sensibles
+firebase-key.json
+prueba.py
+interfaz.py
+test_endpoints.py
+
+# Modelos pesados (se gestionan fuera de Git)
+EficientNet/ripeness.pth
+YOLO/best.pt
+
+
+# Configuración local de VS Code
+.vscode/
+
+# Imágenes generadas y temporales
+*.jpg
+*.png
+*.webp
+static/

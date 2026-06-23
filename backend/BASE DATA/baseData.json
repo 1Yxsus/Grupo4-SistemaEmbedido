@@ -1,0 +1,95 @@
+{
+  "usuarios": {
+    "GqAOcOANg7UnXptr8haJR2SFypb2": {
+      "correo": "arturitogay@gmail.com",
+      "fecha_registro": 1781982915457,
+      "rol": "Almacenero",
+      "nombre": "Arturito"
+    },
+    "LnpSiRvNgLhJ0RikfU8WAsPNJyc2": {
+      "correo": "fabriziodonayre301103@gmail.com",
+      "fecha_registro": 1781844146497,
+      "rol": "Almacenero",
+      "nombre": "Julio Donayre"
+    },
+    "X1RiveROnlVmtTPb2o8g3zkWUN02": {
+      "correo": "ganador22005@gmail.com",
+      "fecha_registro": 1781888026942,
+      "rol": "Almacenero",
+      "nombre": "Jesus Cochi"
+    },
+    "eLVhZ9XOkMZTwIfApNdKBraJNuC2": {
+      "correo": "venuxmk@gmail.com",
+      "fecha_registro": 1781843715009,
+      "rol": "Almacenero",
+      "nombre": "Jesus"
+    },
+    "pxdM6GOJFFYm30LETZaLPHHkT5A3": {
+      "correo": "tattycats2803@gmail.com",
+      "fecha_registro": 1781915598123,
+      "rol": "Almacenero",
+      "nombre": "Tatiana"
+    }
+  },
+  "lotes": {
+    "Lote_Campoy_Alpha": {
+      "configuracion": {
+        "id_espcam": "ESP32_CAM_01",
+        "modo_ventilador": "AUTO",
+        "nombre_lote": "Lote Campoy Alpha",
+        "umbral_humedad": 70.0,
+        "umbral_temperatura": 27.0
+      },
+      "monitoreo_actual": {
+        "humedad_promedio": 68.5,
+        "temperatura_promedio": 24.8,
+        "ventilador_estado": false,
+        "ultima_actualizacion": "21/06/26 20:15"
+      },
+      "sensores": {
+        "Sensor_01": {
+          "esp_id": "ESP32_NODE_A1",
+          "etiqueta": "Zona Norte Entradas",
+          "fecha": "21/06/26 20:15",
+          "humedad": 69.1,
+          "temperatura": 24.5,
+          "historial_sensor": {
+            "-OuotkLULEJduYHj9cna": {
+              "fecha": "21/06/26 20:15",
+              "humedad": 69.1,
+              "temperatura": 24.5
+            },
+            "-OuotxMNEKduYHj9cnb": {
+              "fecha": "21/06/26 20:13",
+              "humedad": 68.9,
+              "temperatura": 24.6
+            }
+          }
+        },
+        "Sensor_02": {
+          "esp_id": "ESP32_NODE_A2",
+          "etiqueta": "Zona Centro Columnas",
+          "fecha": "21/06/26 20:14",
+          "humedad": 67.9,
+          "temperatura": 25.1,
+          "historial_sensor": {
+            "-OuotkLULEJduYHj9cnc": {
+              "fecha": "21/06/26 20:14",
+              "humedad": 67.9,
+              "temperatura": 25.1
+            }
+          }
+        }
+      },
+      "historial_ia_fotos": {
+        "-OupedMbEVyVamgVpINh": {
+          "confianza": "87.70%",
+          "estado_maduracion": "overripe",
+          "fecha_hora": "11/06/26 07:51",
+          "imagen_public_id": "esp32cam/esp32cam/11-06-26_07-51",
+          "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781164314/esp32cam/esp32cam/11-06-26_07-51.jpg"
+        }
+      }
+    }
+  }
+}

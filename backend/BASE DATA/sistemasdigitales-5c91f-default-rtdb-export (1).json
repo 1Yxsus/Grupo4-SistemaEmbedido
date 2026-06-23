@@ -1,0 +1,724 @@
+{
+  "configuracion": {
+    "modo_ventilador": "AUTO",
+    "umbral_humedad": 70,
+    "umbral_temperatura": 28
+  },
+  "historial_clima": {
+    "-OuotkLULEJduYHj9cnu": {
+      "fecha_hora": "10/06/26 23:18",
+      "humedad": 72.6,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-Ouotz-VyRW13NJMxuQB": {
+      "fecha_hora": "10/06/26 23:19",
+      "humedad": 100,
+      "limite_excedido": false,
+      "temperatura": 26.9
+    },
+    "-Ouow0VqqIG1fPG6fy03": {
+      "fecha_hora": "10/06/26 23:28",
+      "humedad": 73.7,
+      "limite_excedido": false,
+      "temperatura": 24.4
+    },
+    "-OuowF7yf-P3q8SGo5Gn": {
+      "fecha_hora": "10/06/26 23:29",
+      "humedad": 73.3,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OuowTrLcgyap1XTLleM": {
+      "fecha_hora": "10/06/26 23:30",
+      "humedad": 73.1,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-Ouoxqp-90dE-gs_vxgw": {
+      "fecha_hora": "10/06/26 23:36",
+      "humedad": 72.8,
+      "limite_excedido": false,
+      "temperatura": 24.6
+    },
+    "-Ouoy4RoE5qpPSc-o5cw": {
+      "fecha_hora": "10/06/26 23:37",
+      "humedad": 71.9,
+      "limite_excedido": false,
+      "temperatura": 24.7
+    },
+    "-Oup8Q6Rcyr0bixU73zT": {
+      "fecha_hora": "11/06/26 00:26",
+      "humedad": 67.4,
+      "limite_excedido": false,
+      "temperatura": 26
+    },
+    "-Oup8dmElgv77FUX0c5P": {
+      "fecha_hora": "11/06/26 00:27",
+      "humedad": 67.1,
+      "limite_excedido": false,
+      "temperatura": 26
+    },
+    "-OupR2_NLes8RMgbfiRD": {
+      "fecha_hora": "11/06/26 01:48",
+      "humedad": 65.3,
+      "limite_excedido": false,
+      "temperatura": 26
+    },
+    "-OupRHDoB6ma2uu6QY6r": {
+      "fecha_hora": "11/06/26 01:49",
+      "humedad": 66.1,
+      "limite_excedido": false,
+      "temperatura": 25.6
+    },
+    "-OupRVsa6F78LyhZzK5L": {
+      "fecha_hora": "11/06/26 01:50",
+      "humedad": 67.1,
+      "limite_excedido": false,
+      "temperatura": 25.4
+    },
+    "-OupRjXma6s4ZmpA_HcU": {
+      "fecha_hora": "11/06/26 01:51",
+      "humedad": 67,
+      "limite_excedido": false,
+      "temperatura": 25.4
+    },
+    "-OupRyRkgbuwfbtf1qzg": {
+      "fecha_hora": "11/06/26 01:52",
+      "humedad": 67.1,
+      "limite_excedido": false,
+      "temperatura": 25.4
+    },
+    "-OupVlc6z73nFUFHauZT": {
+      "fecha_hora": "11/06/26 02:08",
+      "humedad": 67.8,
+      "limite_excedido": false,
+      "temperatura": 25.4
+    },
+    "-OupW-HnGnghT8KfhYVQ": {
+      "fecha_hora": "11/06/26 02:09",
+      "humedad": 68.9,
+      "limite_excedido": false,
+      "temperatura": 25.3
+    },
+    "-OupWDv-wNtTG-PVCxI0": {
+      "fecha_hora": "11/06/26 02:10",
+      "humedad": 68.1,
+      "limite_excedido": false,
+      "temperatura": 25.2
+    },
+    "-OupWSZNRjhhUNZ54IMh": {
+      "fecha_hora": "11/06/26 02:11",
+      "humedad": 68.1,
+      "limite_excedido": false,
+      "temperatura": 25.4
+    },
+    "-OupWgDOjk_Vq_dWiTxO": {
+      "fecha_hora": "11/06/26 02:12",
+      "humedad": 67.5,
+      "limite_excedido": false,
+      "temperatura": 25.4
+    },
+    "-Our8IuTAI6VKEE6EuKj": {
+      "fecha_hora": "11/06/26 09:45",
+      "humedad": 71.7,
+      "limite_excedido": false,
+      "temperatura": 24.4
+    },
+    "-Our8Xb4C-5Bjw9rclRx": {
+      "fecha_hora": "11/06/26 09:46",
+      "humedad": 70.6,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-Our8lHZKafGZTEEYwxl": {
+      "fecha_hora": "11/06/26 09:47",
+      "humedad": 70.6,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-Our90N_iOB7jIgoU2rg": {
+      "fecha_hora": "11/06/26 09:48",
+      "humedad": 70.5,
+      "limite_excedido": false,
+      "temperatura": 24.4
+    },
+    "-Our9xQ0J6P71BVZGywz": {
+      "fecha_hora": "11/06/26 09:52",
+      "humedad": 70.8,
+      "limite_excedido": false,
+      "temperatura": 24.3
+    },
+    "-OurBgxlnm5sjodBpAhD": {
+      "fecha_hora": "11/06/26 10:00",
+      "humedad": 70.7,
+      "limite_excedido": false,
+      "temperatura": 24.2
+    },
+    "-OurCfvT7VIvkfkWCtJS": {
+      "fecha_hora": "11/06/26 10:04",
+      "humedad": 69.9,
+      "limite_excedido": false,
+      "temperatura": 24
+    },
+    "-OurCuZrVKaquK6naq1j": {
+      "fecha_hora": "11/06/26 10:05",
+      "humedad": 70.1,
+      "limite_excedido": false,
+      "temperatura": 24
+    },
+    "-OurD8DRAtkZVRRu17YI": {
+      "fecha_hora": "11/06/26 10:06",
+      "humedad": 70.2,
+      "limite_excedido": false,
+      "temperatura": 24
+    },
+    "-OurDMs49SnkIEubaZqz": {
+      "fecha_hora": "11/06/26 10:07",
+      "humedad": 70.3,
+      "limite_excedido": false,
+      "temperatura": 24
+    },
+    "-Ourl-IEOT8UlEqW1lfs": {
+      "fecha_hora": "11/06/26 12:38",
+      "humedad": 70.4,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OurlDxs4tIpKRvk9Z0j": {
+      "fecha_hora": "11/06/26 12:39",
+      "humedad": 70.3,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OurlSatpsmEdSUtHXRv": {
+      "fecha_hora": "11/06/26 12:40",
+      "humedad": 70.5,
+      "limite_excedido": false,
+      "temperatura": 24.6
+    },
+    "-OurlgGD0ZWKX5GiJ-tj": {
+      "fecha_hora": "11/06/26 12:41",
+      "humedad": 70.6,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OurluuCZm3D9E52VOjO": {
+      "fecha_hora": "11/06/26 12:42",
+      "humedad": 69.9,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-Ourq3HdsbfcHTIAxJrw": {
+      "fecha_hora": "11/06/26 13:01",
+      "humedad": 67,
+      "limite_excedido": false,
+      "temperatura": 25
+    },
+    "-OurqHw8kX0U6XfEpyi8": {
+      "fecha_hora": "11/06/26 13:02",
+      "humedad": 66.9,
+      "limite_excedido": false,
+      "temperatura": 25
+    },
+    "-Ourr5I_9bHeGR6t1Iel": {
+      "fecha_hora": "11/06/26 13:05",
+      "humedad": 68.6,
+      "limite_excedido": false,
+      "temperatura": 24.9
+    },
+    "-OurrSjPxF5pzcatjb5d": {
+      "fecha_hora": "11/06/26 13:07",
+      "humedad": 98.3,
+      "limite_excedido": false,
+      "temperatura": 25.6
+    },
+    "-Ourro1CNxMAy7NotVap": {
+      "fecha_hora": "11/06/26 13:08",
+      "humedad": 70,
+      "limite_excedido": false,
+      "temperatura": 25.3
+    },
+    "-OuruuuU4HY_f4ajx17C": {
+      "fecha_hora": "11/06/26 13:22",
+      "humedad": 68.8,
+      "limite_excedido": false,
+      "temperatura": 24.7
+    },
+    "-OutEaDzrOv7JirhVb2D": {
+      "fecha_hora": "11/06/26 19:32",
+      "humedad": 69.8,
+      "limite_excedido": false,
+      "temperatura": 24.3
+    },
+    "-OutEou--epvsFzhpQk1": {
+      "fecha_hora": "11/06/26 19:33",
+      "humedad": 69.6,
+      "limite_excedido": false,
+      "temperatura": 24.4
+    },
+    "-OutF2XEKSv_II4Fc_T6": {
+      "fecha_hora": "11/06/26 19:34",
+      "humedad": 69.7,
+      "limite_excedido": false,
+      "temperatura": 24.3
+    },
+    "-OutFHIuTOBNvFwAqHQJ": {
+      "fecha_hora": "11/06/26 19:35",
+      "humedad": 69.4,
+      "limite_excedido": false,
+      "temperatura": 24.4
+    },
+    "-OutFVryreyE-h2-cl0k": {
+      "fecha_hora": "11/06/26 19:36",
+      "humedad": 69.2,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutFjc2FwynibxWlgMW": {
+      "fecha_hora": "11/06/26 19:37",
+      "humedad": 69.2,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutFyAyWaDdEiwMEm8U": {
+      "fecha_hora": "11/06/26 19:38",
+      "humedad": 69.1,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutGEDgNs1M1mRjth4o": {
+      "fecha_hora": "11/06/26 19:39",
+      "humedad": 69.1,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutGQx2_QVyc42_Fhsd": {
+      "fecha_hora": "11/06/26 19:40",
+      "humedad": 69.1,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutGf-HfdfZtLBBYYFC": {
+      "fecha_hora": "11/06/26 19:41",
+      "humedad": 69.1,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutGuaXdQ45_UCtZSxL": {
+      "fecha_hora": "11/06/26 19:42",
+      "humedad": 69.1,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutH7X0bXdoY5Qvdxb4": {
+      "fecha_hora": "11/06/26 19:43",
+      "humedad": 69,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutHOlScsyR891XADi6": {
+      "fecha_hora": "11/06/26 19:44",
+      "humedad": 69.1,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutHdC2QzsJYYS-Hya3": {
+      "fecha_hora": "11/06/26 19:45",
+      "humedad": 69.2,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutHrm3qoSlBm-0mDhU": {
+      "fecha_hora": "11/06/26 19:46",
+      "humedad": 69.2,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutI5WmbRK0icjxuwQN": {
+      "fecha_hora": "11/06/26 19:47",
+      "humedad": 69.2,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutIKknPna6VW32mvzx": {
+      "fecha_hora": "11/06/26 19:48",
+      "humedad": 69,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    },
+    "-OutIqKTYdNFNaAK3O_0": {
+      "fecha_hora": "11/06/26 19:50",
+      "humedad": 69.2,
+      "limite_excedido": false,
+      "temperatura": 24.4
+    },
+    "-OutJ4R7XMSTdMvStQnX": {
+      "fecha_hora": "11/06/26 19:51",
+      "humedad": 69.2,
+      "limite_excedido": false,
+      "temperatura": 24.4
+    },
+    "-OutJIzSl1rXpMPQ-_2j": {
+      "fecha_hora": "11/06/26 19:52",
+      "humedad": 69.2,
+      "limite_excedido": false,
+      "temperatura": 24.4
+    },
+    "-OutJY2ygsXJFfMpohT8": {
+      "fecha_hora": "11/06/26 19:53",
+      "humedad": 69.1,
+      "limite_excedido": false,
+      "temperatura": 24.5
+    }
+  },
+  "historial_ia": {
+    "-OupedMbEVyVamgVpINh": {
+      "confianza": "87.70%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "11/06/26 07:51",
+      "imagen_public_id": "esp32cam/esp32cam/11-06-26_07-51",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781164314/esp32cam/esp32cam/11-06-26_07-51.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OurCvDOS_3gTqeQcZ-k": {
+      "confianza": "92.24%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "11/06/26 15:05",
+      "imagen_public_id": "esp32cam/esp32cam/11-06-26_15-05",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781190340/esp32cam/esp32cam/11-06-26_15-05.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OurhbKzWhXZIr-6EnwR": {
+      "confianza": "50.39%",
+      "estado_maduracion": "ripe",
+      "fecha_hora": "11/06/26 17:24",
+      "imagen_public_id": "esp32cam/esp32cam/11-06-26_17-24",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781198647/esp32cam/esp32cam/11-06-26_17-24.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OutEydQ9J88BPNPr-cE": {
+      "confianza": "78.71%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "12/06/26 00:33",
+      "imagen_public_id": "esp32cam/esp32cam/12-06-26_00-33",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781224432/esp32cam/esp32cam/12-06-26_00-33.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvDVl4hQ9RNAVx-QOzP": {
+      "confianza": "60.61%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "15/06/26 22:39",
+      "imagen_public_id": "esp32cam/esp32cam/15-06-26_22-39",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781581155/esp32cam/esp32cam/15-06-26_22-39.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvDWDd-L8muTM1t-9nv": {
+      "confianza": "62.13%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "15/06/26 22:41",
+      "imagen_public_id": "esp32cam/esp32cam/15-06-26_22-41",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781581276/esp32cam/esp32cam/15-06-26_22-41.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvDWS-dUwqFLg01Twcd": {
+      "confianza": "61.76%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "15/06/26 22:42",
+      "imagen_public_id": "esp32cam/esp32cam/15-06-26_22-42",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781581335/esp32cam/esp32cam/15-06-26_22-42.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvDWfnShhDEYp5GYb6u": {
+      "confianza": "59.44%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "15/06/26 22:43",
+      "imagen_public_id": "esp32cam/esp32cam/15-06-26_22-43",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781581396/esp32cam/esp32cam/15-06-26_22-43.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvDX5pzpCcgaBtWfOYl": {
+      "confianza": "73.94%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "15/06/26 22:45",
+      "imagen_public_id": "esp32cam/esp32cam/15-06-26_22-45",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781581505/esp32cam/esp32cam/15-06-26_22-45.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvTLgmxLpd16rE9ssdA": {
+      "confianza": "99.98%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 00:29",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_00-29",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781846951/esp32cam/esp32cam/19-06-26_00-29.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvTLqKILXu7PB0yLIbv": {
+      "confianza": "99.98%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 00:29",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_00-29",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781846991/esp32cam/esp32cam/19-06-26_00-29.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvTMoJFqkblmq9t27nx": {
+      "confianza": "59.17%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 00:34",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_00-34",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781847245/esp32cam/esp32cam/19-06-26_00-34.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvTMzpxbFYYpAXI4bkm": {
+      "confianza": "63.82%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 00:34",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_00-34",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781847292/esp32cam/esp32cam/19-06-26_00-34.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvTN504iezyc7IujwH3": {
+      "confianza": "99.23%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 00:35",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_00-35",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781847317/esp32cam/esp32cam/19-06-26_00-35.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvTNBchgw2Q5och5v0O": {
+      "confianza": "96.44%",
+      "estado_maduracion": "ripe",
+      "fecha_hora": "19/06/26 00:35",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_00-35",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781847344/esp32cam/esp32cam/19-06-26_00-35.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvTNtlmmug4r6D3d4zM": {
+      "confianza": "96.62%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 00:38",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_00-38",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781847529/esp32cam/esp32cam/19-06-26_00-38.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVPXK7e7wLzG7c8PLw": {
+      "confianza": "99.99%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 10:05",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_10-05",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781881511/esp32cam/esp32cam/19-06-26_10-05.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVPXgq5QLp665TlW1U": {
+      "confianza": "100.00%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 10:05",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_10-05",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781881513/esp32cam/esp32cam/19-06-26_10-05.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVPfC6gAqOjp1fA_iL": {
+      "confianza": "54.34%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 10:05",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_10-05",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781881548/esp32cam/esp32cam/19-06-26_10-05.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVVJN2HzATkZtwqvry": {
+      "confianza": "100.00%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 10:30",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_10-30",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781883027/esp32cam/esp32cam/19-06-26_10-30.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVWs9e4cSkH9Uc7Xol": {
+      "confianza": "81.91%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "19/06/26 10:37",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_10-37",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781883436/esp32cam/esp32cam/19-06-26_10-37.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVlD4D56RDbw3OnxyF": {
+      "confianza": "62.76%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 11:44",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_11-44",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781887458/esp32cam/esp32cam/19-06-26_11-44.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVlUmSdaolISaZYAGx": {
+      "confianza": "100.00%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 11:45",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_11-45",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781887531/esp32cam/esp32cam/19-06-26_11-45.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVlofIqqKamYDPCtgL": {
+      "confianza": "99.98%",
+      "estado_maduracion": "rotten",
+      "fecha_hora": "19/06/26 11:46",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_11-46",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781887616/esp32cam/esp32cam/19-06-26_11-46.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvVn_Tk7SgKAdzpYXqo": {
+      "confianza": "100.00%",
+      "estado_maduracion": "ripe",
+      "fecha_hora": "19/06/26 11:54",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_11-54",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781888078/esp32cam/esp32cam/19-06-26_11-54.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvXSGH2QEm_ZjLKDDxg": {
+      "confianza": "51.95%",
+      "estado_maduracion": "ripe",
+      "fecha_hora": "19/06/26 19:36",
+      "imagen_public_id": "esp32cam/esp32cam/19-06-26_19-36",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781915782/esp32cam/esp32cam/19-06-26_19-36.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-Ov_v21_Xv_lc7Jfef9q": {
+      "confianza": "76.13%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 11:45",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_11-45",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781973920/esp32cam/esp32cam/20-06-26_11-45.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-Ova-nYjbSVZv7QDxb4M": {
+      "confianza": "69.75%",
+      "estado_maduracion": "unripe",
+      "fecha_hora": "20/06/26 12:10",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_12-10",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1781975430/esp32cam/esp32cam/20-06-26_12-10.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-Ovbbc5fpLgTnsw6tMNj": {
+      "confianza": "77.42%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 19:39",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-39",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002384/esp32cam/esp32cam/20-06-26_19-39.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-Ovbbqh4rG-8c4pG2sss": {
+      "confianza": "84.71%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 19:40",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-40",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002444/esp32cam/esp32cam/20-06-26_19-40.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-Ovbc41Cptw1zmfhVmhi": {
+      "confianza": "88.04%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 19:41",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-41",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002502/esp32cam/esp32cam/20-06-26_19-41.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvbcJ-4ihVnwIUNaFap": {
+      "confianza": "87.79%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 19:42",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-42",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002564/esp32cam/esp32cam/20-06-26_19-42.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvbcXFa6h4QmrnE1U7x": {
+      "confianza": "95.75%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 19:43",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-43",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002622/esp32cam/esp32cam/20-06-26_19-43.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvbckxBjAgDTKhjZjxs": {
+      "confianza": "54.44%",
+      "estado_maduracion": "unripe",
+      "fecha_hora": "20/06/26 19:44",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-44",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002682/esp32cam/esp32cam/20-06-26_19-44.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvbczgwWgmE8itBZNbG": {
+      "confianza": "87.86%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 19:45",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-45",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002743/esp32cam/esp32cam/20-06-26_19-45.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvbdDLWN_kJjtG0hgm8": {
+      "confianza": "89.21%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 19:46",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-46",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002803/esp32cam/esp32cam/20-06-26_19-46.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-OvbdRwrn5dvi5EA1wCJ": {
+      "confianza": "86.64%",
+      "estado_maduracion": "overripe",
+      "fecha_hora": "20/06/26 19:47",
+      "imagen_public_id": "esp32cam/esp32cam/20-06-26_19-47",
+      "imagen_url": "https://res.cloudinary.com/dn9t05kuc/image/upload/v1782002862/esp32cam/esp32cam/20-06-26_19-47.jpg",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-Ovc4Z8QGUdnSbZAq0am": {
+      "confianza": "100.00%",
+      "estado_maduracion": "Plátano Inmaduro (Verde) 🍌🟢",
+      "fecha_hora": "20/06/26 21:50",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-Ovc5BhSaeIAuvqjRMO5": {
+      "confianza": "100.00%",
+      "estado_maduracion": "Plátano Inmaduro (Verde) 🍌🟢",
+      "fecha_hora": "20/06/26 21:53",
+      "lote": "Lote_Campoy_Alpha"
+    },
+    "-Ovc6bXz_Um-yT6t3ctN": {
+      "confianza": "100.00%",
+      "estado_maduracion": "Plátano Inmaduro (Verde) 🍌🟢",
+      "fecha_hora": "20/06/26 21:59",
+      "lote": "Lote_Campoy_Alpha"
+    }
+  },
+  "monitoreo_actual": {
+    "humedad": 69.1,
+    "temperatura": 24.5,
+    "ultima_actualizacion": "11/06/26 19:54",
+    "ventilador_encendido": false
+  },
+  "usuarios": {
+    "GqAOcOANg7UnXptr8haJR2SFypb2": {
+      "correo": "arturitogay@gmail.com",
+      "fecha_registro": 1781982915457,
+      "nombre": "Arturito"
+    },
+    "LnpSiRvNgLhJ0RikfU8WAsPNJyc2": {
+      "correo": "fabriziodonayre301103@gmail.com",
+      "fecha_registro": 1781844146497,
+      "nombre": "Julio Donayre"
+    },
+    "X1RiveROnlVmtTPb2o8g3zkWUN02": {
+      "correo": "ganador22005@gmail.com",
+      "fecha_registro": 1781888026942,
+      "nombre": "Jesus Cochi"
+    },
+    "eLVhZ9XOkMZTwIfApNdKBraJNuC2": {
+      "correo": "venuxmk@gmail.com",
+      "fecha_registro": 1781843715009,
+      "nombre": "Jesus"
+    },
+    "pxdM6GOJFFYm30LETZaLPHHkT5A3": {
+      "correo": "tattycats2803@gmail.com",
+      "fecha_registro": 1781915598123,
+      "nombre": "Tatiana"
+    }
+  }
+}
